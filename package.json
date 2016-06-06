@@ -1,0 +1,28 @@
+{
+  "name": "stream-decode",
+  "version": "1.0.0",
+  "description": "Decodes and decompressses an HTTP response stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moooji/stream-decode.git"
+  },
+  "keywords": [
+    "stream",
+    "decode",
+    "decompress",
+    "utf8",
+    "compression",
+    "http",
+    "response"
+  ],
+  "author": "Steffen Strätz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moooji/stream-decode/issues"
+  },
+  "homepage": "https://github.com/moooji/stream-decode#readme"
+}
