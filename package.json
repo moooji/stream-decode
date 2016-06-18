@@ -13,9 +13,8 @@
   "keywords": [
     "stream",
     "decode",
-    "decompress",
     "utf8",
-    "compression",
+    "iso-8859-1",
     "http",
     "response"
   ],
