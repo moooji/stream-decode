@@ -1,6 +1,6 @@
 {
   "name": "stream-decode",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Decodes HTTP response stream to UTF-8",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,8 @@
   "homepage": "https://github.com/moooji/stream-decode#readme",
   "dependencies": {
     "charset": "^1.0.0",
-    "iconv-lite": "^0.4.13"
+    "iconv-lite": "^0.4.13",
+    "inflation": "^2.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",

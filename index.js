@@ -1,5 +1,6 @@
 const iconv = require('iconv-lite');
 const charset = require('charset');
+const inflate = require('inflation');
 
 function decode(stream) {
   if (!stream) {
@@ -7,12 +8,13 @@ function decode(stream) {
   }
 
   const encoding = charset(stream.headers['content-type']);
+  const decompressedStream = inflate(stream);
 
   if (!encoding || encoding === 'utf8') {
-    return stream;
+    return decompressedStream;
   }
 
-  return stream.pipe(iconv.decodeStream(encoding));
+  return decompressedStream.pipe(iconv.decodeStream(encoding));
 }
 
 module.exports = decode;
