@@ -1,6 +1,6 @@
 {
   "name": "stream-decode",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Decodes HTTP response stream to UTF-8",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,8 @@
   "dependencies": {
     "charset": "^1.0.0",
     "iconv-lite": "^0.4.13",
-    "inflation": "^2.0.0"
+    "inflation": "^2.0.0",
+    "valido": "^2.0.11"
   },
   "devDependencies": {
     "chai": "^3.5.0",
